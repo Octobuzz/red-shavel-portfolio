@@ -21,7 +21,7 @@
 		</ul>
 		<div class="main-blocks">
 			<router-link
-				to="#"
+				to="prices"
 				class="main-block"
 			>
 				<h2 class="main-headline">
@@ -63,6 +63,8 @@ export default class Home extends Vue {
 	width: 1100px;
 	background-color: $white;
 	border-radius: 15px;
+	box-sizing: border-box;
+	height: 970px;
 
 	&-title {
 		font-size: 60px;
