@@ -41,7 +41,7 @@
 		</div>
 		<div class="main-footer">
 			<router-link
-				to="#"
+				to="/terms"
 				class="main-link"
 			>
 				Terms & Conditions
