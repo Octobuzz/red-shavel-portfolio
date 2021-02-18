@@ -30,7 +30,7 @@
 				</h2>
 			</router-link>
 			<router-link
-				to="#"
+				to="/portfolio"
 				class="main-block"
 			>
 				<h2 class="main-headline">
