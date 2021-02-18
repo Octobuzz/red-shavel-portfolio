@@ -11,5 +11,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #000000;
+  background-color: #764242;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 </style>
