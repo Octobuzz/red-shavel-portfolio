@@ -16,10 +16,16 @@
 				<h2 class="portfolio-headline">
 					Commissions
 				</h2>
-				<img
-					class="img"
-					src="../assets/img/1.png"
-				/>
+				<a
+					href="https://youtu.be/hp2fJE-of8o"
+					target="_blank"
+					class="link"
+				>
+					<img
+						class="img"
+						src="../assets/img/1.png"
+					/>
+				</a>
 			</div>
 			<div class="portfolio-hobby-wrap">
 				<h2 class="portfolio-headline">
@@ -135,5 +141,14 @@ export default class Portfolio extends Vue {
     width: 200px;
     height: 100%;
     border-radius: 10px;
+}
+
+.link {
+    display: inline-block;
+    transition: 1s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
 }
 </style>

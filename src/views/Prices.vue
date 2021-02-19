@@ -157,6 +157,13 @@
 			<b>* Additional animation $20-50 depending on the complexity</b>
 		</div>
 		<div class="prices-add">
+			<b>100% pre-payment to take slots for the upcoming month <br />
+				50% pre-payment to take slots for the future months <br />
+				Payment deadline will increase depending on your place in the queue
+			</b>
+		</div>
+
+		<div class="prices-add">
 			<span class="prices-info">ABOUT COMMISSIONS FOR VISUAL NOVELS</span>
 			If you're commissioning me to work on a models for a visual novel you can get the 20% discount if the amount of models is 5 or more. 
 			The deadline for such commissions has to be discussed individually. In this case,  the waitlist doesn't matter.
@@ -183,6 +190,7 @@ export default class Prices extends Vue {
     display: flex;
     flex-direction: column;
     justify-content: center;
+	overflow: scroll;
 
     &-table {
         border-collapse: collapse;
